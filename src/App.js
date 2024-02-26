@@ -1,9 +1,12 @@
 import Keyboard from "./components/Keyboard/Keyboard";
 import './App.css';
 
-function App() {
+const App = () => {
+  const play = (key) => {
+
+  }
   return (
-    <div className="App">
+    <div className="drum-machine">
       <Keyboard />
       Beat Box!
     </div>
